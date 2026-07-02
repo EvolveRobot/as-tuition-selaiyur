@@ -1,0 +1,39 @@
+{
+  "lead_id": "744609036bf1cd2c",
+  "business_name": "As Tuition Centre",
+  "brand_primary": "AS",
+  "brand_secondary": "Tuition Centre",
+  "raw_business_name": "AS TUITION CENTRE",
+  "category": "coaching",
+  "coaching_tier": "local",
+  "phone_display": "94440 72102",
+  "phone_wa": "919444072102",
+  "address": "B2,Unique homes Ezhil nagar 1st cross street, Camp Rd, Selaiyur, Chennai, Tamil Nadu 600073",
+  "locality": "Selaiyur",
+  "city": "Chennai",
+  "pincode": "600073",
+  "rating": "5.0",
+  "brand_initials": "AT",
+  "google_search_term": "10th tuition Tambaram, Chennai",
+  "recommended_use_cases": "appointment booking, catalog sharing, customer follow-up",
+  "headline_points": [
+    "Class 6–12 tuition and board exam programs",
+    "Centre address, phone and Google location",
+    "WhatsApp button for parent admission enquiries",
+    "Free demo class and callback request form"
+  ],
+  "value_line": "Parents searching for tuition and coaching in Selaiyur can view programs online and send admission enquiries directly to your WhatsApp.",
+  "demo_repo": "Acheivers-coaching-center",
+  "product": {
+    "name": "Business Website + WhatsApp Enquiry",
+    "setup_price": "Rs.4,999 one-time",
+    "monthly_price": "Rs.499/month",
+    "evolve_whatsapp": "917358006064",
+    "website": "www.evolverobotlab.com"
+  },
+  "whatsapp_assets": [
+    "1. Correct centre name spelling",
+    "2. Centre photo or logo",
+    "3. Main programs to highlight (10th / 12th / subjects / batches)"
+  ]
+}

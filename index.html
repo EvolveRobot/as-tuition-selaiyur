@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>As Tuition Centre | Class 6–12 Tuition</title>
+    <meta name="description" content="Focused school tuition and board exam preparation in your area." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-bar">
+        <span class="locality-chip" data-profile="localityLine">Selaiyur</span>
+        <a href="tel:+919444072102">+91 94440 72102</a>
+        <span class="rating-pill" data-profile-rating hidden>★ 4.9 Google</span>
+      </div>
+      <nav class="navbar">
+        <a class="brand" href="#top">
+          <span class="brand-mark">AT</span>
+          <span><strong>AS</strong><small>Tuition Centre</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <div class="nav-links">
+          <a href="#programs">Programs</a>
+          <a href="#why">Why us</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="btn btn-primary nav-cta" data-profile="whatsappLink" href="https://wa.me/919444072102">WhatsApp</a>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <a href="#programs">Programs</a>
+        <a href="#why">Why us</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary" data-profile="whatsappLink" href="https://wa.me/919444072102">WhatsApp</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="tag" data-profile="hero.eyebrow">Trusted tuition centre</p>
+            <h1 data-profile="hero.title">Small-batch tuition for Class 6–12 students.</h1>
+            <p data-profile="hero.text">Regular tests, doubt clearing and parent updates for school students.</p>
+            <div class="hero-btns">
+              <a class="btn btn-primary" data-profile="whatsappLink" href="https://wa.me/919444072102">WhatsApp enquiry</a>
+              <a class="btn btn-outline" href="#contact">Book free demo</a>
+            </div>
+            <div class="hero-tags" data-render="hero-proof"></div>
+          </div>
+          <div class="hero-photo">
+            <img data-profile="hero.image" src="studentimages/happy-indian-student-schoolgirl-do-260nw-2248446779.webp" alt="Students at tuition centre" />
+            <div class="hero-badge" data-render="hero-badge"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="trust-strip wrap" data-render="highlights" aria-label="Centre highlights"></div>
+
+      <section class="section" id="programs">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 data-profile="coursesHeading">Our programs</h2>
+            <p class="section-lead">Clear batches for school students — pick what fits your child.</p>
+          </div>
+          <div class="program-grid" data-render="courses"></div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="why">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Why parents choose us</h2>
+          </div>
+          <div class="why-grid" data-render="why"></div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>What parents say</h2>
+          </div>
+          <div class="review-grid" data-render="testimonials"></div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="wrap contact-grid">
+          <div>
+            <h2>Visit or call us</h2>
+            <p class="section-lead">Walk in for a free demo class or message us on WhatsApp.</p>
+            <div class="contact-card">
+              <strong data-profile="businessName">As Tuition Centre</strong>
+              <p data-profile="address">B2,Unique homes Ezhil nagar 1st cross street, Camp Rd, Selaiyur, Chennai, Tamil Nadu 600073</p>
+              <a class="btn btn-teal" data-profile="phoneLink" href="tel:+919444072102">+91 94440 72102</a>
+              <a class="btn btn-outline-dark maps-link" data-profile="mapsLink" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
+              <p class="hours">Mon–Sat · 9 AM – 7 PM</p>
+            </div>
+          </div>
+          <form class="lead-form" data-lead-form>
+            <h3>Request a callback</h3>
+            <label>Student name<input name="name" type="text" required /></label>
+            <label>Phone<input name="phone" type="tel" required /></label>
+            <label>Class / program
+              <select name="course" data-render="course-options" required>
+                <option value="">Select</option>
+              </select>
+            </label>
+            <label>Message<textarea name="message" rows="3" placeholder="Preferred batch timing…"></textarea></label>
+            <button class="btn btn-primary" type="submit">Send request</button>
+            <p class="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="wrap cta-band-inner">
+          <div>
+            <h2>Ready to enrol your child?</h2>
+            <p>Free demo class · Small batches · <span data-profile="locality">Selaiyur</span></p>
+          </div>
+          <a class="btn btn-primary btn-lg" data-profile="whatsappLink" href="https://wa.me/919444072102">Chat on WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span data-profile="businessName">As Tuition Centre</span>
+        <a data-profile="phoneLink" href="tel:+919444072102">+91 94440 72102</a>
+        <span>&copy; 2026 <span data-profile="businessName">As Tuition Centre</span></span>
+      </div>
+    </footer>
+
+    <script src="site-profile.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
